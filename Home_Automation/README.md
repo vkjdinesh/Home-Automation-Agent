@@ -78,6 +78,7 @@ Your project consists of four main parts:
 
 ### Recommended Project Structure
 
+```
 Home_Automation/
 ├── agent.py # Natural language automation agent
 ├── tools.py # Rule engine, devices, sensors utilities
@@ -88,6 +89,7 @@ Home_Automation/
 ├── Qwen2.5_local/ # Placeholder folder for model files
   └── README.md # Instructions to download the model
 
+```
 
 
 ### Downloading the Local LLM Model
@@ -114,6 +116,7 @@ Example Commands
 3. What is the latest temperature in the kitchen
 4. if temperature is less than 15 in bedroom turn on heater
 **Sample Input and Output**
+```
 Input:
 When it’s too cold in the living room, turn off the fan
 Output:
@@ -144,6 +147,7 @@ Output:
     }
   }
 }
+```
 
 The rule engine will then turn the fan off when the condition is satisfied.
 
